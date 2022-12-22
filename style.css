@@ -1,7 +1,69 @@
+body {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+.container {
+   display: flex;
+   padding: 0px 20%;
+   height: 100vh;
+   align-items: center;
+}
+
+.content {
+   flex: 1;
+   display: flex;
+   background-color: rgb(233, 233, 233);
+   padding: 32px;
+   border-radius: 8px;
+}
+
+.left-content {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.left-content-main {
+   flex: 1;
+}
+
+.left-content-main p {
+   font-weight: bold;
+}
+
+.right-content {
+   flex: 1;
+}
+
+.btn-set-grid {
+   background-color: gray; /* Green */
+   border: none;
+   color: white;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 8px;
+   font-size: 16px;
+   align-self: flex-start;
+ }
+
+.btn-erase {
+   background-color: rgb(255, 67, 34); /* Green */
+   border: none;
+   color: white;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 8px;
+   font-size: 16px;
+   align-self: flex-start;
+ }
+
 .sketch-container {
    display: flex;
    aspect-ratio: 1/1;
-   width: 500px;
 }
 
 .column {
