@@ -1,7 +1,7 @@
-.container {
+.sketch-container {
    display: flex;
    aspect-ratio: 1/1;
-   width: 200px;
+   width: 500px;
 }
 
 .column {
@@ -12,6 +12,6 @@
 
 .row {
    flex: 1;
-   background-color: red;
-   margin: 1px;
+   background-color: lightgray;
+   margin: 0.5px;
 }
